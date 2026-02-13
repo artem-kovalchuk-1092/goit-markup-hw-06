@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main page</title>
     <!-- #region link list -->
     <!-- Link to Google Fonts-->
@@ -29,21 +29,21 @@
 
   <body>
     <!-- #region header-->
-    <header class="main-header">
-      <div class="container header-container">
+    <header class="main-header container">
+      <div class="header-block">
         <a class="logo" href="./index.html">
           <span class="logo-main-color">Web</span>Studio</a
         >
-        <nav class="main-navigation">
-          <ul class="navigation-list">
-            <li class="navigation-list-item">
-              <a class="navigation-link current" href="./index.html">Studio</a>
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-link current" href="./index.html">Studio</a>
             </li>
-            <li class="navigation-list-item">
-              <a class="navigation-link" href="#">Portfolio</a>
+            <li class="nav-list-item">
+              <a class="nav-link" href="#">Portfolio</a>
             </li>
-            <li class="navigation-list-item">
-              <a class="navigation-link" href="#">Contacts</a>
+            <li class="nav-list-item">
+              <a class="nav-link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -61,13 +61,18 @@
             </li>
           </ul>
         </address>
+        <button class="burger-button" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- #endregion header -->
     <main>
       <!-- #region hero -->
 
-      <section class="section hero-section">
+      <section class="section hero-section hide">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
@@ -77,7 +82,7 @@
 
       <!-- #region about -->
 
-      <section class="section">
+      <section class="section hide">
         <div class="container">
           <h2 class="about-main-title visually-hidden">Our Features</h2>
           <ul class="about-list">
@@ -136,7 +141,7 @@
 
       <!-- #region team-->
 
-      <section class="section team-section">
+      <section class="section team-section hide">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-container">
@@ -386,7 +391,7 @@
       <!-- #endregion team-->
 
       <!-- #region portfolio -->
-      <section class="section portfolio-section">
+      <section class="section portfolio-section hide">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-container">
@@ -510,7 +515,7 @@
       <!-- #endregion portfolio -->
     </main>
     <!-- #region footer-->
-    <footer class="footer-block">
+    <footer class="footer-block hide">
       <div class="container footer-block-item">
         <div class="footer-container">
           <a class="footer-logo" href="./index.html"
@@ -597,7 +602,7 @@
 
     <!-- #region modal-->
 
-    <div class="backdrop">
+    <div class="backdrop hide">
       <div class="modal-block">
         <div class="modal-btn">
           <button class="modal-btn-close">
