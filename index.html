@@ -67,98 +67,12 @@
           </svg>
         </button>
       </div>
-
-      <div class="mobile-menu">
-        <div class="container mobile-menu-block">
-          <button class="mobile-menu-close" type="button">
-            <svg class="mobile-close-icon" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-btn"></use>
-            </svg>
-          </button>
-          <nav class="mobile-nav">
-            <ul class="mobile-menu-list">
-              <li class="mobile-list-item">
-                <a class="mobile-link current" href="./index.html">Studio</a>
-              </li>
-              <li class="mobile-list-item">
-                <a class="mobile-link" href="#">Portfolio</a>
-              </li>
-              <li class="mobile-list-item">
-                <a class="mobile-link" href="#">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <address class="mobile-contacts">
-            <ul class="mobile-contacts-list">
-              <li>
-                <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="mobile-contacts-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-
-          <div class="team-social-container">
-            <ul class="social-link-list">
-              <li>
-                <a
-                  class="social-link"
-                  href="https://instagram.com"
-                  target="_blank"
-                >
-                  <svg class="team-social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="social-link"
-                  href="https://twitter.com"
-                  target="_blank"
-                >
-                  <svg class="team-social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="social-link"
-                  href="https://facebook.com"
-                  target="_blank"
-                >
-                  <svg class="team-social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="social-link"
-                  href="https://linkedin.com"
-                  target="_blank"
-                >
-                  <svg class="team-social-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </header>
     <!-- #endregion header -->
     <main>
       <!-- #region hero -->
 
-      <section class="section hero-section">
+      <section class="hsection hero-section">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
@@ -227,13 +141,14 @@
 
       <!-- #region team-->
 
-      <section class="section team-section hide">
-        <div class="container">
+      <section class="section team-section">
+        <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
-          <ul class="team-container">
-            <li class="team-list">
+          <ul class="team-list">
+            <li class="team-list-item">
               <img
                 src="./images/our_team/Mark_Guerrero.jpg"
+                srcset="./images/our_team/Mark_Guerrero.jpg 1x, ./images/our_team/Mark_Guerrero@2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -291,9 +206,10 @@
                 </div>
               </div>
             </li>
-            <li class="team-list">
+            <li class="team-list-item">
               <img
                 src="./images/our_team/Tom_Ford.jpg"
+                srcset="./images/our_team/Tom_Ford.jpg 1x, ./images/our_team/Tom_Ford@2x.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -351,9 +267,10 @@
                 </div>
               </div>
             </li>
-            <li class="team-list">
+            <li class="team-list-item">
               <img
                 src="./images/our_team/Camila_Garcia.jpg"
+                srcset="./images/our_team/Camila_Garcia.jpg 1x, ./images/our_team/Camila_Garcia@2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -411,9 +328,10 @@
                 </div>
               </div>
             </li>
-            <li class="team-list">
+            <li class="team-list-item">
               <img
                 src="./images/our_team/Daniel_Wilson.jpg"
+                srcset="./images/our_team/Daniel_Wilson.jpg 1x, ./images/our_team/Daniel_Wilson@2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -477,7 +395,7 @@
       <!-- #endregion team-->
 
       <!-- #region portfolio -->
-      <section class="section portfolio-section hide">
+      <section class="section portfolio-section">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-container">
@@ -485,6 +403,7 @@
               <div class="portfolio-list-overlay">
                 <img
                   src="./images/our_portfolio/banking.jpg"
+                  srcset="./images/our_portfolio/banking.jpg 1x, ./images/our_portfolio/banking@2x.jpg 2x"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -504,6 +423,7 @@
               <div class="portfolio-list-overlay">
                 <img
                   src="./images/our_portfolio/cashless.jpg"
+                  srcset="./images/our_portfolio/cashless.jpg 1x, ./images/our_portfolio/cashless@2x.jpg 2x"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -523,6 +443,7 @@
               <div class="portfolio-list-overlay">
                 <img
                   src="./images/our_portfolio/meditation.jpg"
+                  srcset="./images/our_portfolio/meditation.jpg 1x, ./images/our_portfolio/meditation@2x.jpg 2x"
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -542,6 +463,7 @@
               <div class="portfolio-list-overlay">
                 <img
                   src="./images/our_portfolio/taxi.jpg"
+                  srcset="./images/our_portfolio/taxi.jpg 1x, ./images/our_portfolio/taxi@2x.jpg 2x"
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -561,6 +483,7 @@
               <div class="portfolio-list-overlay">
                 <img
                   src="./images/our_portfolio/screen_illustration.jpg"
+                  srcset="./images/our_portfolio/screen_illustration.jpg 1x, ./images/our_portfolio/screen_illustration@2x.jpg 2x"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -580,6 +503,7 @@
               <div class="portfolio-list-overlay">
                 <img
                   src="./images/our_portfolio/online_courses.jpg"
+                  srcset="./images/our_portfolio/online_courses.jpg 1x, ./images/our_portfolio/online_courses@2x.jpg 2x"
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -601,7 +525,7 @@
       <!-- #endregion portfolio -->
     </main>
     <!-- #region footer-->
-    <footer class="footer-block hide">
+    <footer class="footer-block">
       <div class="container footer-block-item">
         <div class="footer-container">
           <a class="footer-logo" href="./index.html"
@@ -686,9 +610,98 @@
     </footer>
     <!-- #endregion footer-->
 
+    <!-- #region mobile menu-->
+
+          <div class="mobile-menu">
+        <div class="container mobile-menu-block">
+          <button class="mobile-menu-close" type="button">
+            <svg class="mobile-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+          <nav class="mobile-nav">
+            <ul class="mobile-menu-list">
+              <li class="mobile-list-item">
+                <a class="mobile-link current" href="./index.html">Studio</a>
+              </li>
+              <li class="mobile-list-item">
+                <a class="mobile-link" href="#">Portfolio</a>
+              </li>
+              <li class="mobile-list-item">
+                <a class="mobile-link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-contacts">
+            <ul class="mobile-contacts-list">
+              <li>
+                <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="mobile-contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <div class="mobile-social-container">
+            <ul class="social-link-list">
+              <li>
+                <a
+                  class="social-link"
+                  href="https://instagram.com"
+                  target="_blank"
+                >
+                  <svg class="mobile-social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  href="https://twitter.com"
+                  target="_blank"
+                >
+                  <svg class="mobile-social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  href="https://facebook.com"
+                  target="_blank"
+                >
+                  <svg class="mobile-social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  href="https://linkedin.com"
+                  target="_blank"
+                >
+                  <svg class="mobile-social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+    <!-- #endregion mobile menu -->
+
     <!-- #region modal-->
 
-    <div class="backdrop hide">
+    <div class="backdrop">
       <div class="modal-block">
         <div class="modal-btn">
           <button class="modal-btn-close">
