@@ -833,8 +833,8 @@ button {
         fill: #2e2f42;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .mobile-close-icon:hover .modal-btn-icon,
-    .mobile-close-icon:focus .modal-btn-icon {
+    .mobile-menu-close:hover .mobile-close-icon,
+    .mobile-menu-close:focus .mobile-close-icon {
         fill: #fff;
     }
     .mobile-menu-list {
