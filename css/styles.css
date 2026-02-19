@@ -72,10 +72,11 @@ button {
     .container {
         max-width: 1158px;
         padding: 0 15px;
+    }
     .section {
         padding: 120px 0;
     }
-    }
+    
 }
 /* #region header */
 .main-header {
