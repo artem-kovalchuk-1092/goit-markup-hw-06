@@ -522,7 +522,9 @@ button {
         letter-spacing: 0.02em;
         color: #434455;
     }
-
+    .portfolio-list {
+        max-width: 288px;
+    }
     .portfolio-list-overlay {
         position: relative;
         overflow: hidden;
@@ -556,6 +558,9 @@ button {
     .portfolio-container {
         gap: 72px 24px;
     }
+    .portfolio-list {
+        max-width: 356px;
+    }
     .portfolio-img {
         width: 356px;
         height: 300px;
@@ -570,6 +575,7 @@ button {
         height: 300px;
     }
     .portfolio-list {
+        max-width: 360px;
         cursor: pointer;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
