@@ -323,9 +323,7 @@ button {
             column-gap: 24px;
         }
         .about-list-item {
-            max-width: 356px;
-            padding: 0;
-            margin: 0;
+            width: calc((100% - 24px) / 2);
         }
         .about-title {
             text-align: left;
@@ -389,7 +387,6 @@ button {
     .team-list-item {
         background-color: #ffffff;
         border-radius: 0 0 4px 4px;
-        max-width: 264px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
     .team-description {
@@ -448,8 +445,10 @@ button {
         .team-list {
             gap: 64px 24px;
         }
+        .team-list-item {
+            width: calc((100% - 24px) / 2);
+        } 
     }
-
     @media screen and (min-width: 1158px) {
 
         .team-list {
@@ -503,9 +502,6 @@ button {
         letter-spacing: 0.02em;
         color: #434455;
     }
-    .portfolio-list {
-        max-width: 288px;
-    }
     .portfolio-list-overlay {
         position: relative;
         overflow: hidden;
@@ -540,7 +536,7 @@ button {
         gap: 72px 24px;
     }
     .portfolio-list {
-        max-width: 356px;
+        width: calc((100% - 24px) / 2);
     }
     .portfolio-img {
         width: 356px;
@@ -556,7 +552,7 @@ button {
         height: 300px;
     }
     .portfolio-list {
-        max-width: 360px;
+        width: calc((100% - 48px) / 3);
         cursor: pointer;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
