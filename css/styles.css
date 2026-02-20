@@ -350,7 +350,7 @@ button {
             text-align: left;
         }
     }
-    @media screen and (max-width: 1158px) {
+    @media screen and (max-width: 1157px) {
     .about-list-icon {
         display: none;
     }
@@ -398,30 +398,22 @@ button {
         color: #2e2f42;
         margin-bottom: 72px;
     }
-
-
-
     .team-list {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         row-gap: 72px;
-
     }
-
     .team-list-item {
         background-color: #ffffff;
         border-radius: 0 0 4px 4px;
         max-width: 264px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
     }
-
     .team-description {
         padding: 32px 16px;
     }
-
     .team-name {
         font-weight: 500;
         font-size: 20px;
@@ -431,7 +423,6 @@ button {
         color: #2e2f42;
         margin-bottom: 8px;
     }
-
     .team-role {
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -439,20 +430,17 @@ button {
         color: #434455;
         margin-bottom: 8px;
     }
-
     .team-social-container {
         display: flex;
         justify-content: center;
         margin-top: 8px;
     }
-
     .social-link-list {
         display: flex;
         justify-content: center;
         column-gap: 24px;
         align-items: center;
     }
-
     .social-link,
     .social-link:visited {
         display: flex;
@@ -465,16 +453,13 @@ button {
         outline: none;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .social-link:hover,
     .social-link:focus {
         background-color: #404bbf;
     }
-
     .team-social-icon {
         fill: #f4f4fd;
     }
-
     @media screen and (min-width: 768px) {
         .container.team-container {
             max-width: 584px;
@@ -872,23 +857,18 @@ button {
         row-gap: 24px;
 
     }
-    .mobile-email-link,
-    .mobile-email-link:visited {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #4d5ae5;
-        font-style: normal;
-    }
-    .mobile-phone-link,
-    .mobile-phone-link:visited {
+
+    .mobile-contacts-link,
+    .mobile-contacts-link:visited {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #434455;
         font-style: normal;
+    }
+    .mobile-contacts-link.accent {
+        color: #4d5ae5;
     }
     .mobile-social-container {
         display: flex;
