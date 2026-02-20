@@ -24,24 +24,9 @@ img {
 a {
     text-decoration: none;
     margin: 0;
-    padding: 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
 }
 .section {
     padding: 96px 0;
-}
-@media screen and (min-width: 1158px) {
-    .section {
-        padding: 120px 0;
-    }
 }
 .visually-hidden {
     position: absolute;
@@ -52,7 +37,6 @@ p {
     border: 0;
     padding: 0;
     clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
     margin: -1px;
 }
 button {
