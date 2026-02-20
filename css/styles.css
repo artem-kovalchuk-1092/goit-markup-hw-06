@@ -327,7 +327,7 @@ button {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: left;
+        text-align: center;
         color: #2e2f42;
         margin-bottom: 8px;
     }
@@ -345,6 +345,9 @@ button {
             max-width: 356px;
             padding: 0;
             margin: 0;
+        }
+        .about-title {
+            text-align: left;
         }
     }
     @media screen and (max-width: 1158px) {
